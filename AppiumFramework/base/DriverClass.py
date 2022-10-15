@@ -1,4 +1,4 @@
-from appium.webdriver import webdriver
+from appium import webdriver
 
 
 class Driver:
