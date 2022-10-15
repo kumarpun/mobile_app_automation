@@ -1,4 +1,5 @@
-from appium import webdriver
+from appium.webdriver import webdriver
+
 
 class Driver:
 
@@ -14,3 +15,5 @@ class Driver:
 
         # Create "Driver object"
         driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)
+
+        return driver
